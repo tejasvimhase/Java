@@ -1,0 +1,37 @@
+class StringProcessing{
+    public static void main(String args[]) {
+        String one = "Hello";
+        String two = "World";
+        String three = "hello";
+        String four = "Hello";
+        String five = "Hello,Welcome to Strings and String processing,Have a good day"; 
+        int num = 6;
+    
+        //Concatentation
+        System.out.println(one + " " + two);
+        System.out.println(one + " " + two + " " + num);
+    
+        //Comparing Strings 
+        System.out.println(one.equals(two));
+        System.out.println(one.equals(three));
+        System.out.println(one.equals(four));
+
+        //Splitting a String
+        String[] splitstring = five.split(",");
+        System.out.println(splitstring[0]);
+        System.out.println(splitstring[1]);
+        System.out.println(splitstring[2]);
+
+        //substrings
+        System.out.println(one.substring(2));
+        System.out.println(one.substring(0,4));
+    
+        //string cases
+        System.out.println(one.toUpperCase());
+        System.out.println(one.toLowerCase());
+    
+        // lemgth of a string
+        System.out.println(one.length());
+    
+    }
+}
