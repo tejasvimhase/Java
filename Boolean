@@ -1,0 +1,10 @@
+class Boolean {
+    public static void main(String args[]) {
+        boolean x=false, y=true;
+        System.out.println("Boolean NOT of x ="+ (!x));
+        System.out.println("Boolean AND of x and y =" + (x&&y));
+        System.out.println("Boolean OR of x and y =" + (x||y));
+        System.out.println("Boolean XOR of x and y =" + (x^y));
+
+    }
+}
