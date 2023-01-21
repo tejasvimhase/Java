@@ -1,0 +1,15 @@
+class LogicalExercise {
+    public static boolean exercise_two(boolean x, boolean y) {
+        boolean answer = false;
+        boolean a = (!x);
+        boolean b = (a^x);
+        boolean c = (b&&y);
+        answer = (!c);
+        // Enter your code here
+        // Calculate the value of an expression and store the final value in the answer
+        
+        /* You do not need to worry too much about the return statement for the 
+        moment and just set the value of “answer” correctly*/
+        return answer;
+    }
+}
