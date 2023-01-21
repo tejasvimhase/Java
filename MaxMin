@@ -1,0 +1,6 @@
+class MaxMin{
+    public static void main(String args[]) {
+        System.out.println("maximum between 2 and 3.5 =" + Math.max(2,3.5));
+        System.out.println("minimum between 2 and 3.5 =" + Math.min(2,3.5));
+    }
+}
