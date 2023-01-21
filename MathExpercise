@@ -1,0 +1,14 @@
+class MathExpercise{
+    public static double exercise_one(double x, double y, double z) {
+        double answer = 0;
+        double square = Math.pow(x,2) + Math.pow(y,2);
+        double sub = square - z;
+        answer = Math.cbrt(sub);
+        // Enter your code here
+        // Calculate the value of an expression and store the final value in the answer
+        
+        /* You do not need to worry too much about the return statement for the 
+        moment and just set the value of “answer” correctly*/
+        return answer;   
+    }
+}
